@@ -434,6 +434,16 @@ body td {
   padding: 0 8px;
   border-bottom: none;
 }
+ul.post-list li {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-bottom: 8px;
+}
+ul.post-list li time {
+  font-size: 16px;
+  white-space: nowrap;
+}
 @font-face {
   font-style: normal;
   font-family: "Meslo LG";
